@@ -5,7 +5,7 @@
 * After the user enters some command, the shell program parses the input to interpret I/O redirection, pipe, etc.
 * After interpreting the command as described below, the shell program again waits for user input until the user enters the exit command.
 * Shell is also designed to handle nested commands like "/bin/ls | /bin/sort | /bin/uniq | /usr/bin/wc -l 2>&1 1>output.txt". 
-
+* Design_Documentation.pdf contains the pseudo-code of the implentation and detailed explanation of how the command “/bin/ls | /bin/sort | /bin/uniq” is executed by the shell.
 ## Features Implemented
 | Syntax               | Meaning                                                                                                                                   |
 |:---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
